@@ -1,6 +1,6 @@
 **DevTools - Debugging**
 - The bug is that the value of the element inputs are of type string when you input them, so the function takes those inputs and lets the result variable equal to num1 + num2, which are both string types so when you add them together, you get another string with just the two inputs concatenated together. (for example, if input 5 and 6 then calculate, we are pretty much doing "5" + "6" which equals "56" the string).
-- To fix it, I would type convert both variables `num1` and `num2` before adding them together and assigning that value to result. (`let result = Number(num1) + Number(num2)`).
+- To fix it, I would type convert both variables `num1` and `num2` to numbers before adding them together and assigning that value to result. (`let result = Number(num1) + Number(num2)`).
 
 **DevTools - Network Tab**
 1. The new json file is named `citylots.json`.
